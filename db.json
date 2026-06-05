@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Administrador",
+      "email": "admin@test.com",
+      "password": "Admin123*",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "Usuario",
+      "email": "user@test.com",
+      "password": "User123*",
+      "role": "user"
+    },
+    {
+      "id": "3",
+      "name": "Usuario 2",
+      "email": "user2@test.com",
+      "password": "User123*",
+      "role": "user"
+    }
+  ],
+  "reservations": [
+    {
+      "id": "1",
+      "userId": 2,
+      "workspace": "Sala de Reuniones",
+      "date": "2026-06-10",
+      "startHour": "08:00",
+      "endHour": "09:00",
+      "reason": "Sprint Planning",
+      "status": "cancelled"
+    },
+    {
+      "id": "2",
+      "userId": 3,
+      "workspace": "Coworking",
+      "date": "2026-06-10",
+      "startHour": "10:00",
+      "endHour": "11:00",
+      "reason": "Daily Meeting",
+      "status": "approved"
+    },
+    {
+      "userId": "1",
+      "workspace": "Oficina Privada",
+      "date": "2026-06-17",
+      "startHour": "14:34",
+      "endHour": "18:33",
+      "reason": "dad",
+      "status": "rejected",
+      "id": "3"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
